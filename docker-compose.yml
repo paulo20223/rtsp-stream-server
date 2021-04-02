@@ -1,0 +1,14 @@
+version: "3.5"
+
+services:
+  web:
+    build: .
+    tty: true
+    container_name: odessa-rtsp
+    restart: always
+    command: node build/rtsp-ws-proxy.js config/streams.yml
+    volumes:
+    - ./config:/rtsp-ws-proxy/config
+    ports:
+      - 8081:8081
+      - 8082:8082
