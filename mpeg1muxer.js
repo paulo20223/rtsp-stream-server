@@ -31,7 +31,7 @@ Mpeg1Muxer = function(options) {
         '-c:v',
         'mpeg1video',
         '-b:v',
-        "20k",
+        "2000k",
         "-r",
         "25",
 
