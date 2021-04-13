@@ -18,17 +18,11 @@
   "dependencies": {
     "mocha": "^5.2.0",
     "js-yaml": "3.13.1",
-    "node-rtsp-stream": "0.0.9",
     "ws": "7.3.0"
   },
   "devDependencies": {
-    "@types/js-yaml": "3.12.4",
-    "@types/node": "14.0.1",
-    "@types/ws": "7.2.4",
-    "pkg": "4.4.8",
-    "ts-node": "8.10.1",
-    "tslint": "6.1.2",
-    "typescript": "3.9.2"
+    "ws": "7.3.0",
+    "mocha": "^5.2.0"
   },
   "pkg": {
     "scripts": "build/*.js",

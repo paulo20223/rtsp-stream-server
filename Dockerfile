@@ -4,6 +4,6 @@ WORKDIR /rtsp-ws-proxy
 RUN apk upgrade -U \
  && apk add ca-certificates ffmpeg libva-intel-driver \
  && rm -rf /var/cache/*
-RUN npm i
 
+RUN npm i
 WORKDIR /code
