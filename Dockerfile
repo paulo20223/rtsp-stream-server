@@ -5,5 +5,6 @@ RUN apk upgrade -U \
  && apk add ca-certificates ffmpeg libva-intel-driver \
  && rm -rf /var/cache/*
 
+RUN npm install -g ws
 RUN npm i
 WORKDIR /code
