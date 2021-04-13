@@ -35,6 +35,8 @@ Mpeg1Muxer = function(options) {
         "-r",
         "25",
 
+        "-loglevel",
+        "error",
 
         "-codec:a",
         "aac",
